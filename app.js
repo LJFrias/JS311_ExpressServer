@@ -98,7 +98,7 @@ app.put("/todos/:id", (req, res) => {
             res.json(matchingID)
         }
         else {
-            res.send("unable to process request. check syntax")
+            res.send("unable to process request. check spelling")
         }
     }   
     else {
